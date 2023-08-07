@@ -20,7 +20,7 @@ public class Songrecent {
 		Scanner input = new Scanner(System.in);
 
 		do {
-			System.out.println("Enter user name : ");
+			System.out.println("Enter username : ");
 			userid = input.next();
 			System.out.println("Enter song name : ");
 			recent = input.next();
@@ -49,7 +49,7 @@ public class Songrecent {
 
 		queue.add(recent);
   
-		System.out.println("~~~~~~~");
+		System.out.println("~~~~~~");
 		System.out.println("Current playlist of user: " + map.get(userid2));
 		System.out.println("Current playlist of all users: " + map);
 		

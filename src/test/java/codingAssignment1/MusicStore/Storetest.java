@@ -23,7 +23,7 @@ public class Storetest {
 	        songrecent.recentsong("User1", "Song3");
 	        songrecent.recentsong("User2", "Song4");
 
-	        System.out.println();
+	        System.out.println("....");
 	        // Verify the playlists of specific users
 	        Assert.assertEquals(songrecent.map.get("User1").toString(), "[Song1, Song3]");
 	        Assert.assertEquals(songrecent.map.get("User2").toString(), "[Song2, Song4]");
